@@ -76,3 +76,10 @@ If you are interested in cooperating with me, you can easily find me on the link
     - [template CV](https://dima331.github.io/port/build/)
  * Web-developer from 04.2018 to 11.2018 at [loftschool.com](https://loftschool.com/).
  * Developed [softwines.by](https://softwines.by).
+1. I graduated from Belarussian State University of Informatics and Radioelectronics. From 2012 to 2017, I studied at the Faculty of Computer-Aided Design and became a bachelor of information technologies.
+From 2017 to 2018, I studied at the Faculty of Computer-Aided Design and became a master of information technologies.  
+I finished three courses on the website loftshool.com:
+  * Web Development for Beginners [certificate](https://loftschool.com/diploma/WJ1519072519/ru/pdf)
+  * Advanced Web Development Course [certificate](https://loftschool.com/diploma/DA1513014288/ru/pdf)
+  * Comprehensive JavaScript training [certificate](https://loftschool.com/diploma/DO43009335733/ru/pdf)
+1. I have been studying English at the Skyeng online school for more than six months. I also study the language by myself with the help of books and on sites Lingualeo and Puzzle English.
