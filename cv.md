@@ -1,13 +1,13 @@
 1. Dmitriy Barkov
-1. Contacts
+2. Contacts
    * phone: +375447390162 
    * telegram: @Dimbar95 
    * email: dimbar331@gmail.com
-1. Hello, my name is Dmitry. My goal is to become a professional front-end developer who would work at interesting and unusual projects.
+3. Hello, my name is Dmitry. My goal is to become a professional front-end developer who would work at interesting and unusual projects.
 I have some experience working collectively on a project. I like when several professionals in their fields work together, discussing all the nuances together. I also want to be a professional and be responsible for my part of the work. I want to create unique things, make interesting layouts. And I like to make layouts until they become perfect. I like to see how websites are made, how people make layouts, what ways they do it. I have finished several online courses, at the same time I have experience in self-education. And I realized: to be good, you have to force yourself to work.
 If you are interested in cooperating with me, you can easily find me on the links below or write me an e-mail, send the contact form.
-1. My skills: html/pug, bem, css/sass,postcss,  php, mysql, js, webpack/gulp, vuejs, git, jquery.
-1. Code example:
+4. My skills: html/pug, bem, css/sass,postcss,  php, mysql, js, webpack/gulp, vuejs, git, jquery.
+5. Code example:
 ```javascript
     (function () {
         $(".dish__title").on("click", function (event) {
@@ -64,7 +64,7 @@ If you are interested in cooperating with me, you can easily find me on the link
         })
     })()
 ```
-1. My experience:
+6. My experience:
  * Web-developer at BelMAPE since 2017.
     - [test.belmapo.by](https://test.belmapo.by)
     - [de.belmapo.by/](https://de.belmapo.by)
@@ -76,10 +76,10 @@ If you are interested in cooperating with me, you can easily find me on the link
     - [template CV](https://dima331.github.io/port/build/)
  * Web-developer from 04.2018 to 11.2018 at [loftschool.com](https://loftschool.com/).
  * Developed [softwines.by](https://softwines.by).
-1. I graduated from Belarussian State University of Informatics and Radioelectronics. From 2012 to 2017, I studied at the Faculty of Computer-Aided Design and became a bachelor of information technologies.
+7. I graduated from Belarussian State University of Informatics and Radioelectronics. From 2012 to 2017, I studied at the Faculty of Computer-Aided Design and became a bachelor of information technologies.
 From 2017 to 2018, I studied at the Faculty of Computer-Aided Design and became a master of information technologies.  
 I finished three courses on the website loftshool.com:
   * Web Development for Beginners [certificate](https://loftschool.com/diploma/WJ1519072519/ru/pdf)
   * Advanced Web Development Course [certificate](https://loftschool.com/diploma/DA1513014288/ru/pdf)
   * Comprehensive JavaScript training [certificate](https://loftschool.com/diploma/DO43009335733/ru/pdf)
-1. I have been studying English at the Skyeng online school for more than six months. I also study the language by myself with the help of books and on sites Lingualeo and Puzzle English.
+8. I have been studying English at the Skyeng online school for more than six months. I also study the language by myself with the help of books and on sites Lingualeo and Puzzle English.
