@@ -65,17 +65,17 @@ If you are interested in cooperating with me, you can easily find me on the link
     })()
 ```
 6. My experience:
- * Web-developer at BelMAPE since 2017.
+ 1. Web-developer at BelMAPE since 2017.
     - [test.belmapo.by](https://test.belmapo.by)
     - [de.belmapo.by/](https://de.belmapo.by)
- * Graduation projects at loftschool.com courses: 
+ 2. Graduation projects at loftschool.com courses: 
     - [chocolate](https://dima331.github.io/cho-cco/dist/)
     - [burgers](https://dima331.github.io/sity/) 
     - [template beginner](https://dima331.github.io/loft-beginner/)
     - [template](https://dima331.github.io/testDev/)
     - [template CV](https://dima331.github.io/port/build/)
- * Web-developer from 04.2018 to 11.2018 at [loftschool.com](https://loftschool.com/).
- * Developed [softwines.by](https://softwines.by).
+ 3. Web-developer from 04.2018 to 11.2018 at [loftschool.com](https://loftschool.com/).
+ 4. Developed [softwines.by](https://softwines.by).
 7. I graduated from Belarussian State University of Informatics and Radioelectronics. From 2012 to 2017, I studied at the Faculty of Computer-Aided Design and became a bachelor of information technologies.
 From 2017 to 2018, I studied at the Faculty of Computer-Aided Design and became a master of information technologies.  
 I finished three courses on the website loftshool.com:
