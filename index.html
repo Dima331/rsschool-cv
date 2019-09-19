@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <main class="main">
+                <section class="face">
+                    <div class="container">
+                        <div class="hero">
+                            <div class="hero__pic">
+                                <img class="hero__img" src="image.jpg" alt="face">
+                            </div>
+                            <div class="hero__text hero__text_margin">
+                                <h3 class="hero__name">
+                                    Dmitriy Barkov
+                                </h3>
+                                <div class="hero__specialty">
+                                    Junior front-end developer
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="contacts">
+                            <li class="contacts__item">
+                                phone: +375447390162
+                            </li>
+                            <li class="contacts__item">
+                                telegram: @Dimbar95
+                            </li>
+                            <li class="contacts__item">
+                                email: dimbar331@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="summary">
+                    <h2 class="summary__title section-title">Summary</h2>
+                    <div class="summary__text">
+                        <p class="text">Hello, my name is Dmitry. My goal is to become a professional front-end
+                            developer who would work at interesting and unusual projects.</p>
+                        <p class="text">I have some experience working collectively on a project.
+                            I like when several professionals
+                            in their fields work together, discussing all the nuances together.
+                            I also want to be a professional and be responsible for my part of the work.
+                            I want to create unique things, make interesting layouts.
+                            And I like to make layouts until they become perfect.
+                            I like to see how websites are made, how people make layouts,
+                            what ways they do it. I have finished several online courses,
+                            at the same time I have experience in self-education.
+                            And I realized: to be good, you have to force yourself to work.</p>
+                        <p class="text">If you are interested in cooperating with me, you can easily find me on the
+                            links below or write me an e-mail, send the contact form.</p>
+                    </div>
+                </section>
+                <section class="skills">
+                    <h2 class="skills__title section-title">My skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-list__item">html/pug</li>
+                        <li class="skills-list__item">bem</li>
+                        <li class="skills-list__item">css/sass</li>
+                        <li class="skills-list__item">postcss</li>
+                        <li class="skills-list__item">php</li>
+                        <li class="skills-list__item">mysql</li>
+                        <li class="skills-list__item">js</li>
+                        <li class="skills-list__item">webpack/gulp</li>
+                        <li class="skills-list__item">vuejs</li>
+                        <li class="skills-list__item">git</li>
+                        <li class="skills-list__item">jquery</li>
+                    </ul>
+                </section>
+                <section class="code">
+                    <h2 class="code__title section-title">Code examples</h2>
+                    <pre class="code__pre">
+                        <code class="code__text">
+(function () {
+    $(".dish__title").on("click", function (event) {
+        event.preventDefault()
+            
+        var width = $(window).width()
+        var thisElement = $(this)
+        var minusPx;
+        if (width < 930 && width > 800) {
+            closeBlock()
+            width = width - 300
+            changeWidth(thisElement, width)
+
+        } else if (width <= 800 && width > 600) {
+            closeBlock()
+            width = width - 240
+            changeWidth(thisElement, width)
+        }
+        else if (width <= 600) {
+            width = width - 60
+            changeWidth(thisElement, width)
+
+            if ($(this).parent(".dish").hasClass("dish_absolute")) {
+                $(this).parent(".dish").removeClass("dish_absolute")
+            } else {
+                $(this).parent(".dish").addClass("dish_absolute")
+            }
+        }
+        else {
+            closeBlock()
+            minusPx = 102
+            changeWidth(thisElement, undefined, minusPx)
+        }
+    })
+
+    function changeWidth(thisElement, width = 630, minusPx = 72) {
+        $(thisElement).siblings(".dish__text").width(width)
+        $(thisElement).siblings(".dish__text").children(".dish__text-info").width(width - minusPx)
+        if ($(thisElement).siblings(".dish__text").width() > 0) {
+            $(thisElement).siblings(".dish__text").width(0)
+        }
+    }
+    function closeBlock() {
+        $(".dish__text").each(function () {
+            $(".dish__text").width(0)
+        })
+    }
+
+    $(".dish__text-close").on("click", function () {
+        closeBlock()
+        $(".dish").each(function () {
+            $(this).removeClass("dish_absolute")
+        })
+    })
+})()
+                        </code>
+                    </pre>
+                </section>
+                <section class="experience">
+                    <h2 class="experience__title section-title">My experience</h2>
+                    <ul class="experience-list">
+                        <li class="experience-list__item">
+                            <h4 class="experience-list__title">
+                                Web-developer at BelMAPE since 2017.
+                            </h4>
+                            <ul class="examples-list">
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://test.belmapo.by" target="_blank">
+                                        <h4 class="examples-list__title">test.belmapo.by</h4>
+                                        <img class="examples-list__pic" src="project/1.jpg" alt="example">
+                                    </a>
+                                </li>
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://de.belmapo.by" target="_blank">
+                                        <h4 class="examples-list__title">de.belmapo.by</h4>
+                                        <img class="examples-list__pic" src="project/2.jpg" alt="example">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="experience__item">
+                            <h4 class="experience-list__title">
+                                Graduation projects at loftschool.com courses:
+                            </h4>
+                            <ul class="examples-list">
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://dima331.github.io/cho-cco/dist/"
+                                        target="_blank">
+                                        <h4 class="examples-list__title">chocolate</h4>
+                                        <img class="examples-list__pic" src="project/3.jpg" alt="example">
+                                    </a>
+                                </li>
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://dima331.github.io/sity/"
+                                        target="_blank">
+                                        <h4 class="examples-list__title">template beginner</h4>
+                                        <img class="examples-list__pic" src="project/4.jpg" alt="example">
+                                    </a>
+                                </li>
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://dima331.github.io/loft-beginner/"
+                                        target="_blank">
+                                        <h4 class="examples-list__title">template</h4>
+                                        <img class="examples-list__pic" src="project/5.jpg" alt="example">
+                                    </a>
+                                </li>
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://dima331.github.io/testDev/"
+                                        target="_blank">
+                                        <h4 class="examples-list__title">burgers</h4>
+                                        <img class="examples-list__pic" src="project/6.jpg" alt="example">
+                                    </a>
+                                </li>
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://dima331.github.io/port/build/"
+                                        target="_blank">
+                                        <h4 class="examples-list__title">template CV</h4>
+                                        <img class="examples-list__pic" src="project/7.jpg" alt="example">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="experience__item">
+                            <h4 class="experience-list__title">
+                                Web-developer from 04.2018 to 11.2018 at loftschool.com.
+                            </h4>
+                            <ul class="examples-list">
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://loftschool.com" target="_blank">
+                                        <h4 class="examples-list__title">loftschool.com</h4>
+                                        <img class="examples-list__pic" src="project/8.jpg" alt="example">
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="experience__item">
+                            <h4 class="experience-list__title">
+                                Developed softwines.by.
+                            </h4>
+                            <ul class="examples-list">
+                                <li class="examples-list__item">
+                                    <a class="examples-list__link" href="https://softwines.by." target="_blank">
+                                        <h4 class="examples-list__title">softwines.by</h4>
+                                        <img class="examples-list__pic" src="project/9.jpg" alt="example">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="education">
+                    <h2 class="education__title section-title">Education</h2>
+                    <div class="education__text">
+                        <p class="text">
+                            I graduated from Belarussian State University of Informatics and Radioelectronics.
+                            From 2012 to 2017, I studied at the Faculty of Computer-Aided
+                            Design and became a bachelor of information technologies.
+                            From 2017 to 2018, I studied at the Faculty of Computer-Aided Design and
+                            became a master of information technologies.
+                        </p>
+                        <p class="education__dec">I finished three courses on the website loftshool.com:</p>
+                        <ul class="courses-list">
+                            <li class="courses-list__item">
+                                <p class="courses-list__text">Web Development for Beginners</p>
+                                <a class="courses-list__link" href="https://loftschool.com/diploma/WJ1519072519/ru/pdf"
+                                    target="_blank">certificate</a>
+                            </li>
+                            <li class="courses-list__item">
+                                <p class="courses-list__text">Advanced Web Development Course</p>
+                                <a class="courses-list__link" href="https://loftschool.com/diploma/DA1513014288/ru/pdf"
+                                    target="_blank">certificate</a>
+                            </li>
+                            <li class="courses-list__item">
+                                <p class="courses-list__text">Comprehensive JavaScript training</p>
+                                <a class="courses-list__link" href="https://loftschool.com/diploma/DO43009335733/ru/pdf"
+                                    target="_blank">certificate</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="english">
+                    <h2 class="english__title section-title">English</h2>
+                    <p class="text">
+                        I have been studying English at the Skyeng online school for more than six months.
+                        I also study the language by myself with the help of books and on sites
+                        Lingualeo and Puzzle English.
+                    </p>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
