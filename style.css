@@ -127,3 +127,19 @@ section:after {
     margin-bottom: 10px;
     line-height: 1;
 }
+
+.skills-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__title{
+    margin-bottom: 30px;
+}
+
+.skills-list__item{
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+}
