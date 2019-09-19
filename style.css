@@ -130,6 +130,8 @@ section:after {
     background-color: black;
     color: #fff;
     border-radius: 20px;
+    min-width: 40px;
+    text-align: center;
 }
 
 .code__pre {
