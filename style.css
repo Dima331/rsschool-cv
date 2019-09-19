@@ -99,6 +99,7 @@ section:after {
 
 .hero__pic {
     height: 250px;
+    max-width: 200px;
 }
 
 .hero__img {
