@@ -208,4 +208,19 @@ section:after {
 
 .examples-list__pic {
     z-index: 1;
+    width: 100%;
+}
+.education__dec{
+    margin: 20px 0 10px 0;
+}
+
+.courses-list__item{
+    display: flex;
+}
+.courses-list__link{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.courses-list__link:hover{
+    text-decoration: none;
 }
